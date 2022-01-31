@@ -1,0 +1,15 @@
+.form form {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    height: 610px;
+    border-radius: 0.7rem;
+    background-color: #eedecf;
+
+}
+
+.danger{
+size: 2px;
+}

@@ -1,0 +1,47 @@
+root {
+  
+    --primary-color: #2d2223;
+    --secondary-color: #dabfa6;
+    --tertiary-color: #50a643;
+    --quaternary-color: #7f9cb1;
+    --penternary-color: #bb474b;
+  }
+  
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #2d2223;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://wallpaperaccess.com/full/3066278.png");
+  background-color: #c2ddf0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.landing{
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.appTitle{
+  text-align: left;
+  position: absolute;
+  top: 3%;
+  left: 7%;
+  transform: translate(-10%, -10%);
+}
+
+
+a {
+    color: #50a643;
+}

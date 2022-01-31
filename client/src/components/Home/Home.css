@@ -1,0 +1,22 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+::selection{
+  color: #2d2223;
+  background: #7f9cb1;
+}
+.control{
+  display: flex;
+  max-width: 1080px;
+  width: 100%;
+  background: #eedecf;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.06);
+}
+.navigation{
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+}
